@@ -4,8 +4,8 @@ export const Spinner = styled.div`
     border: 5px solid var(--lightGrey);
     border-top: 5px solid var(--medGrey);
     border-radius: 50%;
-    width: 50%;
-    height: 50%;
+    width: 50px;
+    height: 50px;
     margin: 20px auto;
     animation: spin 0.8s linear infinite;
 
@@ -14,7 +14,7 @@ export const Spinner = styled.div`
             transform: rotate(0deg);
         }
         100% {
-            transform: rotate() (360deg);
+            transform: rotate(360deg);
         }
     }
 `;
