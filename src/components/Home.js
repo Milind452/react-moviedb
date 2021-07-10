@@ -21,6 +21,10 @@ const Home = () => {
     const { state, loading, error, searchTerm, setSearchTerm } = useHomeFetch();
     console.log(state);
 
+    if (error) {
+        return <div>Something went wrong...</div>;
+    }
+
     return (
         <>
             {!searchTerm && state.results[0] && (
