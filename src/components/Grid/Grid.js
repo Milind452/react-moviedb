@@ -1,7 +1,7 @@
 import React from "react";
 
 //Styles
-import { Wrapper, Content } from "../HeroImage/HeroImage.styles";
+import { Wrapper, Content } from "./Grid.styles";
 
 const Grid = ({ header, children }) => (
     <Wrapper>
