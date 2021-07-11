@@ -2,11 +2,10 @@ import React from "react";
 
 //Helpers
 import { calcTime, convertMoney } from "../../helpers";
-import MovieInfo from "../MovieInfo/MovieInfo";
-import { Content } from "../MovieInfo/MovieInfo.styles";
 
 //Styles
-import { Wrapper } from "../MovieInfoBar/MovieInfoBar.styles";
+import { Wrapper, Content } from "../MovieInfoBar/MovieInfoBar.styles";
+
 const MovieInfoBar = ({ time, budget, revenue }) => (
     <Wrapper>
         <Content>
